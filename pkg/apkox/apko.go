@@ -122,9 +122,6 @@ type ApkoBuilder struct {
 	// timestamp sets a specific timestamp for reproducible builds.
 	timestamp string
 
-	// tags is a slice of additional tags for the output image.
-	tags []string
-
 	// New fields
 	annotations   map[string]string
 	buildDate     string
